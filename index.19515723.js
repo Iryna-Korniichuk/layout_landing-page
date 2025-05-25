@@ -1,0 +1,2 @@
+var e=document.querySelector(".icon--menu"),n=document.querySelector(".icon--close");e&&n&&(e.addEventListener("click",function(){document.body.classList.add("menu-open")}),n.addEventListener("click",function(){document.body.classList.remove("menu-open")})),document.addEventListener("click",function(e){var n=document.querySelector(".menu");!document.body.classList.contains("menu-open")||n.contains(e.target)||e.target.classList.contains("icon--menu")||document.body.classList.remove("menu-open")});
+//# sourceMappingURL=index.19515723.js.map
